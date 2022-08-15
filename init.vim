@@ -4,6 +4,8 @@ set termguicolors
 
 source ~/.config/nvim/pluggins/lualine.vim
 " source ~/.config/nvim/pluggins/colorizer.vim
+source ~/.config/nvim/pluggins/autopairs.vim
+source ~/.config/nvim/pluggins/autotag.vim
 source ~/.config/nvim/pluggins/coc.vim
 
 set nocompatible            " disable compatibility to old-time vi

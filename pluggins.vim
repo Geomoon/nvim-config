@@ -23,5 +23,10 @@ Plug 'nvim-lualine/lualine.nvim'
 
 Plug 'norcalli/nvim-colorizer.lua'
 
+Plug 'windwp/nvim-autopairs'
+Plug 'windwp/nvim-ts-autotag'
+
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+
 call plug#end()
 
