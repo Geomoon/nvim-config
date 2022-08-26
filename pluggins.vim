@@ -2,6 +2,13 @@ call plug#begin()
 
 " THEMES
 Plug 'projekt0n/github-nvim-theme'
+Plug 'sonph/onehalf', {'rtp': 'vim/'}
+Plug 'rakr/vim-one'
+Plug 'drewtempelmeyer/palenight.vim'
+Plug 'doums/darcula'
+Plug 'dunstontc/vim-vscode-theme'
+Plug 'overcache/NeoSolarized'
+Plug 'EdenEast/nightfox.nvim'
 
 " NERD TREE
 Plug 'scrooloose/nerdtree'
@@ -21,12 +28,9 @@ Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }
 
 Plug 'nvim-lualine/lualine.nvim'
 
-Plug 'norcalli/nvim-colorizer.lua'
-
 Plug 'windwp/nvim-autopairs'
 Plug 'windwp/nvim-ts-autotag'
 
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-
 call plug#end()
 

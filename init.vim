@@ -32,6 +32,10 @@ set ttyfast                 " Speed up scrolling in Vim
 " set backupdir=~/.cache/vim " Directory to store backup files.
 set relativenumber
 
+" open terminal 
+nnoremap <silent>tv <cmd> :botright vnew <Bar> :terminal<cr>
+nnoremap <silent>th <cmd> :botright new <Bar> :terminal<cr>
+
 " resize buffers
 nnoremap <silent> <C-h> :vertical resize +2<CR>
 nnoremap <silent> <C-l> :vertical resize -2<CR>
@@ -40,9 +44,13 @@ nnoremap <silent> <C-j> :resize -2<CR>
 
 " PLUGINS
 
+set background=dark
+" colorscheme one
+" colorscheme NeoSolarizedc
+" colorscheme github_*
+colorscheme nightfox
 
-colorscheme github_*
-
+" hi normal guibg=000000
 
 "  open new split panes to right and below
 set splitright
@@ -111,8 +119,8 @@ let g:NERDTreeWinPos="left"
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 
-let g:NERDTreeDirArrowExpandable = '+'
-let g:NERDTreeDirArrowCollapsible = '-'
+let g:NERDTreeDirArrowExpandable = ''
+let g:NERDTreeDirArrowCollapsible = ''
 
 " map <C-t> :NERDTreeToogle<CR>
 nnoremap <silent> <C-b> :NERDTreeToggle<CR>
