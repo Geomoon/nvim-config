@@ -1,5 +1,11 @@
 {
   "diagnostic.virtualText": true,
   "diagnostic.virtualTextCurrentLineOnly": false,
-  "diagnostic.virtualTextPrefix": "<- "
+  "diagnostic.virtualTextPrefix": "<- ",
+  "diagnostic.floatConfig": {
+    "border": true,
+    "borderhighlight": "FloatBorder",
+    "highlight": "CocFloating",
+    "focusable": true
+  }
 }
